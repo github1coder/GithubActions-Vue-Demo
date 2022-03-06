@@ -23,3 +23,7 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
         FOLDER: dist
+
+    - name: Run On Push
+      run: |
+        echo "Run On Push"
